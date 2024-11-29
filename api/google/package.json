@@ -4,7 +4,7 @@
         "type":"1",
         "schema":"com.xunijun.app.gp",
         "minVerCode":36,
-        "verNames":[],
+        "verNames":["8.4.0"],
         "verCodes":[832],
         "content":"Please upgrade to the latest version"
     }
