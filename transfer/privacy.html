@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Policy - File Transfer</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f7f8fa; --surface:#fff; --text:#171c20; --muted:#596168; --line:#d9dee3; --accent:#246daa; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#171818; --surface:#242526; --text:#f1f1f1; --muted:#a4a6a8; --line:#37393b; --accent:#7dbcf2; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(820px,calc(100% - 32px)); margin:0 auto; padding:48px 0 72px; }
+    header { padding-bottom:24px; border-bottom:1px solid var(--line); }
+    h1 { margin:0 0 8px; font-size:clamp(2rem,6vw,3rem); line-height:1.15; }
+    h2 { margin:36px 0 10px; font-size:1.35rem; }
+    h3 { margin:22px 0 6px; font-size:1.05rem; }
+    p,li { color:var(--muted); }
+    strong { color:var(--text); }
+    a { color:var(--accent); }
+    .summary { margin:24px 0; padding:18px 20px; border:1px solid var(--line); border-radius:8px; background:var(--surface); }
+    nav ul { columns:2; padding-left:20px; }
+    code { overflow-wrap:anywhere; }
+    footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); }
+    @media (max-width:560px) { main { padding-top:28px; } nav ul { columns:1; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p><strong>File Transfer</strong> &middot; Effective July 13, 2026</p>
+  </header>
+
+  <div class="summary">
+    <strong>Summary.</strong> File Transfer is designed for direct file transfer. We do not operate a remote server that receives your files, installed-app list, camera images, or transfer history. The app temporarily operates a local server on the sending device when you start a transfer. Transfer content stays on your devices and the devices you choose. Local network transfers use unencrypted HTTP, so you should use the app only on networks and with recipients you trust.
+  </div>
+
+  <nav aria-label="Contents">
+    <h2>Contents</h2>
+    <ul>
+      <li><a href="#scope">Scope</a></li>
+      <li><a href="#data">Data the app accesses</a></li>
+      <li><a href="#use">How data is used</a></li>
+      <li><a href="#sharing">Sharing and transfers</a></li>
+      <li><a href="#storage">Storage and retention</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#choices">Your choices</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#changes">Changes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="scope">
+    <h2>1. Scope</h2>
+    <p>This Privacy Policy explains how File Transfer accesses, uses, stores, and discloses information when you use its Android application. File Transfer does not require an account and does not include advertising or analytics services in the current version.</p>
+  </section>
+
+  <section id="data">
+    <h2>2. Data the app accesses</h2>
+    <h3>Files and media you choose</h3>
+    <p>The app accesses only files, photos, videos, or other content that you select through Android's system pickers, receive through Android sharing, or choose for transfer. File contents and metadata such as file name, type, and size are used to display and transfer your selection.</p>
+
+    <h3>Installed applications</h3>
+    <p>If you open the Apps picker, the app queries launchable applications installed on your device and reads their app name, icon, package name, version, package size, and APK locations. This inventory is processed locally. The app exports an APK or APKS archive only for applications you explicitly select.</p>
+
+    <h3>Camera</h3>
+    <p>Camera access is used only while you scan a transfer QR code. Camera frames are analyzed on-device and are not saved or transmitted by File Transfer.</p>
+
+    <h3>Nearby devices and local network information</h3>
+    <p>Nearby transfer uses Android network service discovery and local network connections. The app processes a device display name, a locally generated device identifier, local IP address, service address, transfer token, pairing code, and transfer status so devices can discover and connect to each other. The identifier is stored on your device and announced only on the active local network while Nearby receiving is enabled. File Transfer does not request location permission or use this information to determine your physical location.</p>
+
+    <h3>Download and app settings</h3>
+    <p>The app reads Android Download Manager records created by File Transfer to show transfer progress and received files. It stores your theme preference locally. The app does not create a user profile or account.</p>
+  </section>
+
+  <section id="use">
+    <h2>3. How data is used</h2>
+    <p>Information is used only to provide features you request, including selecting content, discovering nearby devices, creating a local transfer link or QR code, sending and receiving files, showing progress, exporting selected application packages, opening files, and remembering display preferences.</p>
+    <p>We do not sell your data, use it for advertising, build behavioral profiles, or send it to a developer-operated analytics or cloud storage service.</p>
+  </section>
+
+  <section id="sharing">
+    <h2>4. Sharing and transfers</h2>
+    <p>When you initiate or accept a transfer, the selected content and necessary transfer metadata are disclosed to the recipient device you choose. When you use Android's system share sheet, information is handled by the receiving application under that application's own terms and privacy policy.</p>
+    <p>Android and Google Play may independently process app distribution, security, and diagnostic information under their own policies. File Transfer does not control those platform services.</p>
+  </section>
+
+  <section id="storage">
+    <h2>5. Storage and retention</h2>
+    <ul>
+      <li><strong>Selected files:</strong> selection and transfer state are kept in memory for the active app session. For files chosen through Android's document picker, Android may grant File Transfer persistent read access so the selected content remains available during a transfer. You can revoke that access by clearing app data, uninstalling the app, or changing access through Android or the document provider where supported.</li>
+      <li><strong>Received files:</strong> downloads are saved in the public <code>Downloads/File Transfer</code> folder and remain until you delete them.</li>
+      <li><strong>Exported APKS files:</strong> split application archives are stored in the app cache and may remain until Android clears the cache, you clear app storage, or you uninstall the app.</li>
+      <li><strong>Single APK selections:</strong> the app reads the existing installed APK directly and does not create a duplicate cache copy.</li>
+      <li><strong>Theme preference:</strong> remains on the device until changed, app data is cleared, or the app is uninstalled.</li>
+      <li><strong>Nearby device identifier:</strong> remains in app preferences until app data is cleared or the app is uninstalled.</li>
+    </ul>
+    <p>Because File Transfer does not maintain user accounts or a developer cloud database, there is no remote account data to delete. You can remove local data through the app, Android settings, the system file manager, or by uninstalling File Transfer.</p>
+  </section>
+
+  <section id="security">
+    <h2>6. Security</h2>
+    <p>File Transfer limits content access through Android content URIs, read grants, short-lived session tokens, pairing codes, and app-private components. Nearby requests require recipient confirmation where supported.</p>
+    <p><strong>Important:</strong> local link, QR, and nearby file delivery currently use HTTP on the local network and are not end-to-end encrypted by File Transfer. Anyone who obtains an active transfer link and pairing code and can reach the sender's local network service may be able to request the shared content. Use trusted networks, verify the recipient, do not post transfer links publicly, and stop the sharing session when finished.</p>
+  </section>
+
+  <section id="choices">
+    <h2>7. Your choices and permissions</h2>
+    <p>You may decline camera permission; QR scanning will not work, but you can continue using other available transfer methods. File Transfer does not request location, nearby-device, or notification permission. Android system settings let you revoke camera permission, clear cache or app data, and remove downloaded files.</p>
+  </section>
+
+  <section id="children">
+    <h2>8. Children</h2>
+    <p>File Transfer is a general-purpose utility and is not directed to children under 13 or the minimum age required by local law. We do not knowingly collect personal information from children through a developer-operated service.</p>
+  </section>
+
+  <section id="changes">
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this policy when features, legal requirements, or data practices change. The effective date at the top identifies the latest version. Material changes will be made available through the app or its store listing as appropriate.</p>
+  </section>
+
+  <section id="contact">
+    <h2>10. Contact</h2>
+    <p>For privacy questions or requests concerning File Transfer, email <a href="mailto:gkspacedev@gmail.com">gkspacedev@gmail.com</a>.</p>
+  </section>
+
+  <footer>File Transfer &middot; Privacy contact: gkspacedev@gmail.com</footer>
+</main>
+</body>
+</html>
